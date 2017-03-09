@@ -1,0 +1,102 @@
+@media screen and (max-width:1100px){
+    .grid{
+        width: 100%;
+    }
+    .grid-item {
+        width: 280px;
+    }
+}
+@media screen and (max-width: 640px){
+    #containerMian{
+        padding-bottom: 1rem;
+    }
+    .swiper-slide{
+        width: 100%;
+    }
+    .nav>a{
+        padding: 0.7rem 0.2rem;
+    }
+    .storyText1{
+        width: 90%;
+    }
+    .storyText2{
+        width: 90%;
+    }
+    .photo{
+        width: 90%;
+    }
+    .photo li{
+        width: 50%;
+        margin-top: 0.2rem;
+    }
+    .footer{
+        width: 90%;
+    }
+    .footer ul{
+        margin-left: 0;
+    }
+    .footer ul:nth-child(1),.footer ul:nth-child(2){
+        width: 50%;
+    }
+    .footer ul:nth-child(3){
+        width: 100%;
+        margin-top: 0.4rem;
+    }
+    .footer ul li{
+        height: auto;
+    }
+    .footer div{
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer div img{
+        width: 50%;
+        margin-top: 0.8rem;
+    }
+    .return{
+        display: none;
+    }
+
+    .grid{
+        width: 100%;
+    }
+    .grid-item {
+        width: 240px;
+    }
+}
+@media screen and (max-width:980px){
+    .footer div{
+        float: left;
+
+    }
+    .footer div img{
+        float: left;
+        width: 50%;
+        margin-top: 0.8rem;
+    }
+}
+@media screen and (max-width: 540px){
+    .grid{
+        width: 100%;
+    }
+    .grid-item {
+        width: 180px;
+    }
+}
+@media screen and (max-width: 440px){
+    .grid{
+        width: 100%;
+    }
+    .grid-item {
+        width: 160px;
+    }
+}
+@media screen and (max-width: 380px){
+    .grid{
+        width: 100%;
+    }
+    .grid-item {
+        width: 120px;
+    }
+}
