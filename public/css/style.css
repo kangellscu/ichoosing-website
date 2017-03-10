@@ -50,7 +50,7 @@
     font-size: 0.24rem;
     width: 100%;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
 }
 .nav{
     width: 100%;
@@ -75,14 +75,13 @@
 .story>h1{
     font-size: 0.25rem;
     color: #000;
-    padding: 0.1rem 0;
 }
 
 .story>p{
     font-size: 0.2rem;
     color: #727171;
     margin: 0.5rem auto 0 auto;
-    line-height: 0.5rem;
+    line-height: 0.36rem;
 }
 .storyText1{
     width: 65%;
