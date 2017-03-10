@@ -1,9 +1,7 @@
-
 @media screen and (max-width:980px){
     .footer div{
         float: left;
         text-align: center;
-
     }
     .footer div img{
         float: left;
@@ -79,4 +77,6 @@
     .grid-item p{
         margin-top: 0.1rem;
     }
+
+    
 }
