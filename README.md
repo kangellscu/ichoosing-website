@@ -1,2 +1,2 @@
 #ichoosing-website
-add deploy
+add deploy process
