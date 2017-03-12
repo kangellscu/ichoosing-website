@@ -2,13 +2,13 @@
 /*======================================轮播图=======================================*/
 .swiper-container {
     width: 100%;
-    margin: 1.28rem auto 0 auto;
+    margin: 0 auto;
+    background: #f8f8f8;
 }
 .swiper-slide {
     text-align: center;
     background: #fff;
     width: 60%;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28,14 +28,27 @@
     height: 100%;
 }
 /*====================================container=============================*/
+@font-face {
+    font-family: testfont;
+    src: url("../font/FZLTHJW.TTF");
+    /* IE */ src: local("FZLTHJW"), url(../font/FZLTHJW.TTF) format("truetype"); /* non-IE */
+}
 #containerMian{
     width: 100%;
     background: #F8F8F8;
-    padding-bottom: 2.5rem;
+    /*background: #fff;*/
+    font-family: testfont;
+    /*padding-bottom: 2.5rem;*/
+}
+#containerMian .arial{
+    font-family: Arial;
 }
 .header{
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
     border-top: 6px solid #E7130F;
+    background: #f8f8f8;
+    padding-bottom: 1.28rem;
 }
 .logo{
     width: 3.9rem;
@@ -64,6 +77,11 @@
     padding: 0.7rem 0.8rem;
     display: inline-block;
 }
+.main{
+    width: 1200px;
+    background: #f8f8f8;
+    margin: 0 auto;
+}
 
 .story{
     width: 100%;
@@ -75,6 +93,8 @@
 .story>h1{
     font-size: 0.25rem;
     color: #000;
+    margin-top: 0.06rem;
+    font-weight: bold;
 }
 
 .story>p{
@@ -92,7 +112,7 @@
 .story>h2{
     font-size: 0.2rem;
     color: #E7130F;
-    padding: 0.1rem 0;
+    /*padding: 0.1rem 0;*/
 }
 .storyTitle2{
     margin-top: 0.4rem;
@@ -106,7 +126,7 @@
 
 .grid {
     position: relative;
-    width: 1100px;
+    width: 100%;
     /* fluffy */
     margin: 0 auto;
 }
@@ -117,7 +137,7 @@
     top: 0;
     left: 0;
     /* fluffy */
-    width: 300px;
+    width: 32%;
     height: auto;
     padding: 0 0.2rem;
     box-sizing: border-box;
@@ -134,7 +154,7 @@
     opacity: 1;
 }
 .grid-item h3{
-    font-size:0.48rem ;
+    font-size:0.32rem ;
     color: #000000;
     margin-top: .2rem;
 }
@@ -147,17 +167,19 @@
 .grid-item p{
     font-size: 0.24rem;
     color: #5C5C5C;
+    padding-top: 0.1rem;
+    line-height: 0.36rem;
 }
 .photo{
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     margin: 1.4rem auto 0 auto;
 }
 .photo li{
     float: left;
-    width: 20%;
+    width: 16.4%;
     box-sizing: border-box;
-    padding: 0 0.2rem;
+    margin-left: 3%;
 }
 .photo li img{
     display: block;
@@ -168,10 +190,11 @@
     border-bottom: 1px solid #C9CACB;
 }
 .footer{
-    width: 78%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 0.6rem 0;
+    padding: 0.6rem 3%;
+    box-sizing: border-box;
 }
 .footer ul{
     float: left;
@@ -182,18 +205,37 @@
     margin-left: 0;
 }
 .footer ul li{
-    height: 0.4rem;
-    line-height: 0.4rem;
+    /*height: 0.4rem;*/
+    line-height: 0.46rem;
     font-size: 0.2rem;
     color: #727171;
+}
+.footer ul li img{
+    display: block;
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.footCenter{
+    text-align: center;
 }
 .footer div{
     float: right;
     overflow: hidden;
 }
+.footer div h6{
+    float: left;
+    text-align: center;
+}
+.footer div h6:first-child{
+    margin-right: 0.4rem;
+}
+.footer div p{
+    font-size:0.2rem;
+    color: #727171;
+}
 .footer div img{
     display: block;
-    float: left;
+    width: 100%;
 }
 .link{
     width: 100%;
@@ -201,6 +243,7 @@
     font-size: 0.2rem;
     color: #727171;
     margin-top: 0.4rem;
+    padding-bottom: 2rem;
 }
 
 .return{
