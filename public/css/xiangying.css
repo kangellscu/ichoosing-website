@@ -31,8 +31,11 @@
         margin-top: 0.4rem;
     }
     .footer ul li img{
-        width:40%;
         margin: 0 auto;
+    }
+    .footCenter{
+        text-align: center;
+        margin-top: 0rem;
     }
     .footer div{
         width: 40%;

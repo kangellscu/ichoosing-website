@@ -212,11 +212,12 @@
 }
 .footer ul li img{
     display: block;
-    width: 100%;
+    width: 2.2rem;
     margin-top: 0.1rem;
 }
 .footCenter{
     text-align: center;
+    margin-top: 0.1rem;
 }
 .footer div{
     float: right;
