@@ -27,28 +27,41 @@
     width: 100%;
     height: 100%;
 }
+.swiper-slide-next,.swiper-slide-prev{
+    opacity: 0.15;
+    filter:alpha(opacity=15);
+
+}
 /*====================================container=============================*/
 @font-face {
     font-family: testfont;
     src: url("../font/FZLTHJW.TTF");
     /* IE */ src: local("FZLTHJW"), url(../font/FZLTHJW.TTF) format("truetype"); /* non-IE */
 }
+@font-face {
+    font-family: fontfutura;
+    src: url("../font/Futura-Md-BT.ttf");
+    /* IE */ src: local("FZLTHJW"), url(../font/Futura-Md-BT.ttf) format("truetype"); /* non-IE */
+}
+.fontfutura{
+    font-family: fontfutura;
+}
 #containerMian{
     width: 100%;
     background: #F8F8F8;
     /*background: #fff;*/
-    font-family: testfont;
+    /*font-family: testfont;*/
     /*padding-bottom: 2.5rem;*/
 }
 #containerMian .arial{
-    font-family: Arial;
+    font-family: fontfutura;
 }
 .header{
     width: 1200px;
     margin: 0 auto;
     border-top: 6px solid #E7130F;
     background: #f8f8f8;
-    padding-bottom: 1.28rem;
+    padding-bottom: 0.7rem;
 }
 .logo{
     width: 3.9rem;
@@ -91,17 +104,19 @@
     border-bottom: 1px solid #C9CACB;
 }
 .story>h1{
-    font-size: 0.25rem;
+    font-size: 0.32rem;
     color: #000;
     margin-top: 0.06rem;
-    font-weight: bold;
+    margin-bottom: 0.5rem;
+   /* font-weight: bold;*/
 }
 
 .story>p{
-    font-size: 0.2rem;
+    font-size: 0.24rem;
     color: #727171;
-    margin: 0.5rem auto 0 auto;
+    margin: 0 auto;
     line-height: 0.36rem;
+    font-family: Arial;
 }
 .storyText1{
     width: 65%;
@@ -157,18 +172,27 @@
     font-size:0.32rem ;
     color: #000000;
     margin-top: .2rem;
+    font-family: Arial;
+    font-weight: bold;
 }
-.grid-item span{
+.grid-item>span{
     display: block;
-    font-size: 0.2rem;
+    font-size: 0.28rem;
     color: #727171;
+    font-weight: normal;
     margin-top: 0.2rem;
+}
+.grid-item>h3>.textBlock{
+    font-size: 0.28rem;
+    font-family: fontfutura;
+    /*font-weight: normal;*/
 }
 .grid-item p{
     font-size: 0.24rem;
     color: #5C5C5C;
     padding-top: 0.1rem;
     line-height: 0.36rem;
+    font-family: Arial;
 }
 .photo{
     width: 100%;
@@ -177,7 +201,8 @@
 }
 .photo li{
     float: left;
-    width: 16.4%;
+    /*width: 16.4%;*/
+    width: 30.3%;
     box-sizing: border-box;
     margin-left: 3%;
 }
@@ -207,8 +232,9 @@
 .footer ul li{
     /*height: 0.4rem;*/
     line-height: 0.46rem;
-    font-size: 0.2rem;
+    font-size: 0.24rem;
     color: #727171;
+    font-family: Arial;
 }
 .footer ul li img{
     display: block;
