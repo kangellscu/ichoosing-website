@@ -19,6 +19,9 @@
         width: 45%;
         margin-left: 2%;
     }
+    .gridThree{
+        height: 7.5rem;
+    }
 
     .footer{
         width: 100%;
@@ -53,6 +56,28 @@
         margin: 0;
     }
 
+}
+@media screen and (max-width: 780px){
+    .gridOne{
+        height: 7.5rem;
+    }
+    .gridTwo{
+        height: 7rem;
+    }
+    .gridThree{
+        height: 6.5rem;
+    }
+}
+@media screen and (max-width: 680px){
+    .gridOne{
+        height: 7.2rem;
+    }
+    .gridTwo{
+        height: 6.4rem;
+    }
+    .gridThree{
+        height: 6.4rem;
+    }
 }
 
 @media screen and (max-width: 640px){
@@ -97,5 +122,16 @@
     }
     .textBlock{
         display: block;
+    }
+}
+@media screen and (max-width: 580px){
+    .gridOne{
+        height: 6.8rem;
+    }
+    .gridTwo{
+        height: 6.2rem;
+    }
+    .gridThree{
+        height: 6.6rem;
     }
 }

@@ -153,10 +153,10 @@
     left: 0;
     /* fluffy */
     width: 32%;
-    height: auto;
-    padding: 0 0.2rem;
+    height: 8rem;
+    /*padding: 0 0.2rem;*/
     box-sizing: border-box;
-    padding-bottom: 0.8rem;
+    /*padding-bottom: 0.8rem;*/
     background: #f8f8f8;
 }
 .grid-item img{
